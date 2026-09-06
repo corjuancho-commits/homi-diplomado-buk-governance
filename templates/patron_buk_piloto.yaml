@@ -1,0 +1,15 @@
+pattern_id: PBUK-001
+pattern_name: ""
+diploma_need: ""
+buk_configuration: ""
+expected_result: ""
+observed_result: ""
+participant_friction: "low|medium|high"
+trainer_friction: "low|medium|high"
+admin_friction: "low|medium|high"
+data_quality: "low|medium|high"
+maintainability: "low|medium|high"
+potentially_reusable_in_soer: "yes|no|conditional"
+recommended_adjustment: ""
+evidence_refs: []
+date_evaluated: null
