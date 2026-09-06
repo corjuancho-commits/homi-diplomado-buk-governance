@@ -1,0 +1,48 @@
+program_id: DLGUFE
+module_id: M00
+session_id: DLGUFE-M00-S00
+version: 1.0.0
+status: draft
+buk:
+  course_id: null
+  course_url: null
+  route_id: null
+  prerequisites: []
+session:
+  title: ""
+  scheduled_at: null
+  trainer:
+    name: ""
+    role: ""
+  problem: ""
+  capacity: ""
+  expected_action: ""
+  execution_mode: "real|supervised|simulation|analysis|design"
+  risk_level: "low|medium|high"
+  approvals_required: []
+resources:
+  - resource_id: DLGUFE-M00-S00-R01
+    title: ""
+    stability_class: "stable|moderate|volatile"
+    version: 1.0.0
+    buk_or_institutional_ref: ""
+activity:
+  activity_id: DLGUFE-M00-S00-A01
+  purpose: ""
+  instructions: ""
+  required: true
+evidence:
+  evidence_definition_id: DLGUFE-M00-S00-A01-E01
+  type: "text|file|image|video|assessment|attendance|other"
+  minimum_requirements: ""
+  criterion_required: false
+  criterion: ""
+continuity:
+  next_step: ""
+  refuerzo_if_not_met: ""
+  exception_owner: "Formación y Desarrollo"
+governance:
+  functional_owner: "Formación y Desarrollo"
+  pedagogical_validation: "pending"
+  technical_validation: "pending"
+  change_log_ref: ""
