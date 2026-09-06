@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evento de trazabilidad del Diplomado HOMI",
+  "type": "object",
+  "required": ["event_id", "program_id", "event_type", "event_at", "source_system"],
+  "properties": {
+    "event_id": {"type": "string"},
+    "participant_id": {"type": ["string", "null"], "description": "Solo en BUK/entorno analítico seguro; no almacenar PII en GitHub."},
+    "program_id": {"type": "string"},
+    "module_id": {"type": ["string", "null"]},
+    "session_id": {"type": ["string", "null"]},
+    "activity_id": {"type": ["string", "null"]},
+    "event_type": {
+      "type": "string",
+      "enum": [
+        "enrolled", "session_opened", "attendance_recorded", "activity_executed",
+        "evidence_submitted", "evidence_reviewed", "feedback_issued", "criterion_met",
+        "criterion_not_met", "course_approved", "course_failed", "due_date_missed",
+        "exception_opened", "exception_closed", "session_closed"
+      ]
+    },
+    "event_at": {"type": "string", "format": "date-time"},
+    "actor_role": {"type": ["string", "null"]},
+    "source_system": {"type": "string", "enum": ["BUK", "derived_export", "manual_governed"]},
+    "version_context": {"type": ["string", "null"]},
+    "payload_ref": {"type": ["string", "null"]}
+  },
+  "additionalProperties": true
+}
