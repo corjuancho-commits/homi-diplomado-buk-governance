@@ -1,0 +1,14 @@
+change_id: CHG-YYYYMMDD-001
+object_id: DLGUFE-M00-S00
+from_version: 1.0.0
+to_version: 1.0.1
+change_type: "patch|minor|major"
+requested_by: ""
+date: null
+reason: ""
+changed_elements: []
+impact_on_historical_interpretation: "none|low|high"
+requires_new_buk_object: false
+approved_by: ""
+implementation_date: null
+notes: ""
